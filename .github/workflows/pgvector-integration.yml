@@ -30,7 +30,7 @@ jobs:
       JAVA_AI_POSTGRES_USER: java_ai
       JAVA_AI_POSTGRES_PASSWORD: java_ai_test
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-java@v5
         with:
           distribution: temurin

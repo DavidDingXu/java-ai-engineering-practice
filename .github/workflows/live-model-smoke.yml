@@ -15,7 +15,7 @@ jobs:
       SPRING_AI_OPENAI_BASE_URL: ${{ secrets.JAVA_AI_CHAT_BASE_URL }}
       SPRING_AI_OPENAI_CHAT_MODEL: ${{ vars.JAVA_AI_CHAT_MODEL }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - uses: actions/setup-java@v5
         with:
